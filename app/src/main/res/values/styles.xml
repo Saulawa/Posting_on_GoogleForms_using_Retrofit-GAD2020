@@ -15,7 +15,20 @@
     </style>
 
 
+<style name="Alertdialogtheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
 
+    <item name="android:textColor">@color/projectsubmissiontxtcolor</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:windowBackground">@android:color/white</item>
+    <item name="windowFixedWidthMajor">300dp</item>
+    <item name="windowFixedWidthMinor">200dp</item>
+    <item name="windowFixedHeightMajor">200dp</item>
+    <item name="windowFixedHeightMinor">200dp</item>
+    <item name="buttonBarPositiveButtonStyle">@color/projectsubmissiontxtcolor</item>
+<item name="height">200dp</item>
+
+
+</style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

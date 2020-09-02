@@ -26,11 +26,12 @@ class AddActivity : AppCompatActivity() {
         val successDialog = Dialog(this)
 
         successDialog.setContentView(R.layout.successdialoglayout)
+        successDialog.window?.setLayout(1000,1000)
         successDialog.setTitle("Successful")
 
         val errorDialog = Dialog(this)
-
         errorDialog.setContentView(R.layout.errordialoglayout)
+        errorDialog.window?.setLayout(1000,1000)
         errorDialog.setTitle("Error")
 
 
@@ -57,10 +58,17 @@ class AddActivity : AppCompatActivity() {
                 var _projectlink = projectlink.text.toString()
 
 
-                var alert: AlertDialog.Builder = AlertDialog.Builder(this)
+                var alert: AlertDialog.Builder = AlertDialog.Builder(this,R.style.Alertdialogtheme)
 
-                alert.setPositiveButton("Are you sure?", object : DialogInterface.OnClickListener {
+
+                alert.setTitle("Are you sure you want to submit the data")
+
+//                val  layout = layoutInflater.inflate(R.layout.submitdialoglayout,null)
+//                alert.setView(layout)
+
+                alert.setPositiveButton("Yes", object : DialogInterface.OnClickListener {
                     override fun onClick(p0: DialogInterface?, p1: Int) {
+
                         postFormService.postForm(_firstname, _lastname, _emailaddress, _projectlink)
                             ?.enqueue(object : Callback<Void?> {
                                 override fun onFailure(call: Call<Void?>, t: Throwable) {
@@ -71,7 +79,7 @@ class AddActivity : AppCompatActivity() {
                                     call: Call<Void?>,
                                     response: Response<Void?>
                                 ) {
-
+                                    Toast.makeText(this@AddActivity,"Submitted successfully", Toast.LENGTH_SHORT).show()
                                     successDialog.show();
                                 }
 
@@ -79,7 +87,7 @@ class AddActivity : AppCompatActivity() {
                             })
                     }
 
-                })
+                }).show()
 
 
             } else{
