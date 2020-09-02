@@ -21,13 +21,18 @@
         android:layout_marginEnd="@dimen/side_margin"
         android:layout_marginRight="@dimen/side_margin"
         android:hint="@string/project_link_hint"
+
+
+
+android:textColorHint="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailaddressinputlayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/projectlink"
-
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -39,6 +44,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailaddressinputlayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:textColorHint="@android:color/black"
+        app:hintTextColor="@android:color/holo_orange_dark"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/side_margin"
@@ -53,7 +61,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailaddress"
-
+android:background="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -68,6 +77,8 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:textColorHint="@android:color/black"
         android:layout_marginTop="@dimen/top_margin"
         android:layout_marginEnd="@dimen/side_margin"
         android:layout_marginRight="@dimen/side_margin"
@@ -76,8 +87,10 @@
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/lastname"
 
+            android:id="@+id/lastname"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
             android:layout_width="@dimen/name_input_width"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -116,8 +129,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Project submission"
-                    android:textColor="@color/submitbuttonColor"
+                    android:text="@string/project_submission"
+                    android:textColor="@color/projectsubmissiontxtcolor"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -136,8 +149,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/firstnameinputlayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:textColorHint="@android:color/black"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="70dp"
@@ -148,10 +164,12 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/firstname"
             android:layout_width="@dimen/name_input_width"
+
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-
+            android:textColor="@android:color/black"
+android:background="@android:color/white"
             tools:layout_editor_absoluteX="78dp"
             tools:layout_editor_absoluteY="251dp" />
     </com.google.android.material.textfield.TextInputLayout>

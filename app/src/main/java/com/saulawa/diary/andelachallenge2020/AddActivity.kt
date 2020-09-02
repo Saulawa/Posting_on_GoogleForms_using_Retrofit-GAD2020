@@ -22,6 +22,8 @@ class AddActivity : AppCompatActivity() {
         val toolbar: MaterialToolbar = findViewById(R.id.addactivitytoolbar)
 
         setSupportActionBar(toolbar)
+        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
+        getSupportActionBar()?.setDisplayShowHomeEnabled(true)
 
         val successDialog = Dialog(this)
 

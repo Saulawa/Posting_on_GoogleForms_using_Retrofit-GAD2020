@@ -7,6 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="materialButtonStyle">@color/submitbuttonColor</item>
         <item name="android:textColor">@color/textColor</item>
+
+        <item name="colorBackgroundFloating">@android:color/transparent</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
