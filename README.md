@@ -3,16 +3,19 @@
 
 GADS 2020
 
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142439.png)
 
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142448.png)
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142439.png"  height="600" width="300" >  
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142448.png"  height="600" width="300" >  
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142459.png"  height="600" width="300" >
 
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142459.png)
-
-
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142548.png)
-
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142554.png)
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142548.png"  height="600" width="300" >
 
 
-![myimage-alt-tag](https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-155030.png)
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-142554.png"  height="600" width="300" >
+
+<img src="https://github.com/Saulawa/Posting_on_GoogleForms_using_Retrofit-GAD2020/blob/master/Screenshot_20200902-155030.png"  height="600" width="300" >
+
+
+
+
+
